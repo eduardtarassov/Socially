@@ -54,7 +54,6 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/blaze/2.1.9/web.browser/builtins.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/blaze/2.1.9/web.browser/preamble.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/blaze/2.1.9/web.browser/domrange.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/angular-templates/1.0.9/web.browser/templates-handler.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/url/1.0.10/web.browser/url_common.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/blaze-tools/1.0.10/web.browser/tokens.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/url/1.0.10/web.browser/url_client.js" />
@@ -184,7 +183,6 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/blaze/2.1.9/web.browser/builtins.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/blaze/2.1.9/web.browser/preamble.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/blaze/2.1.9/web.browser/domrange.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/angular-templates/1.0.9/web.browser/templates-handler.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/url/1.0.10/web.browser/url_common.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/blaze-tools/1.0.10/web.browser/tokens.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/url/1.0.10/web.browser/url_client.js" />
