@@ -1,9 +1,11 @@
 import angular from 'angular';
 import angularMeteor from 'angular-meteor';
+import uiRouter from 'angular-ui-router';
 
 import template from './partiesList.html';
 import { Parties } from '../../../api/parties';
 import { name as PartyAdd } from '../partyAdd/partyAdd';
+import { name as PartyRemove } from '../partyRemove/partyRemove';
 
 // Class is basically a controller
 class PartiesList {
@@ -26,9 +28,20 @@ const name = 'partiesList';
 // This module 'partiesList' is exported to main module 'socially'.
 export default angular.module(name, [
     angularMeteor,
-    PartyAdd
+    uiRouter,
+    PartyAdd,
+    PartyRemove
 ]).component(name, { //component
     template, // import template partiesList.html with urigo:static-templates
     controllerAs: name, // how to call controller from the view
     controller: PartiesList // reference to controller (class)
-});
+}).config(config);
+
+function config($stateProvider) {
+    'ngInject';
+    $stateProvider
+        .state('parties', {
+            url: '/parties',
+            template: '<parties-list></parties-list>'
+        });
+}
