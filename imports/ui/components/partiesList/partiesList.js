@@ -14,6 +14,9 @@ class PartiesList {
 
         $reactive(this).attach($scope);
 
+        // Add the 'parties' dataset subscription defined in api
+        this.subscribe('parties');
+
         // defining helpers inside constructor and loading all parties
         this.helpers({
             parties() {

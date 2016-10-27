@@ -21,6 +21,8 @@ class PartyDetails {
         // /parties/:partyId Variables with the : notation are passed to the Component through the $stateParams object
         this.partyId = $stateParams.partyId;
 
+        this.subscribe('parties');
+
         this.helpers({
             party() {
                 // Calling findOne MongoDB query
@@ -37,7 +39,8 @@ class PartyDetails {
         }, {
             $set: {
                 name: this.party.name,
-                description: this.party.description
+                description: this.party.description,
+                public: this.party.public
             }
         }, // Handling fail of update function
             (error) => {
